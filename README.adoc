@@ -1,2 +1,17 @@
 = Training
 
+* expand/shrink selection
+* refactoring menu
+* rename
+** variable
+** method
+** class
+* move
+* extract
+** variable
+** method
+** constant
+** field
+* inline
+* change signature
+* pull members up
