@@ -1,17 +1,74 @@
 = Training
+:toc:
 
-* expand/shrink selection
-* refactoring menu
-* rename
-** variable
-** method
-** class
-* move
-* extract
-** variable
-** method
-** constant
-** field
-* inline
-* change signature
-* pull members up
+== Extend/Shrink selection
+. File > Settings > Keymap
+. Search for `selection`
+. Scroll down to `extend selection`
+. Set up keybinds for `extend selection` and `schrink selection`
+. Show examples
+
+== Refactoring menu
+. File > Settings > Keymap
+. Search for `refactor`
+. Scroll down to `refactor this`
+. Set up keybind
+. Show examples
+
+== Colors
+Colors have convey meaning and give hints. Use it to your advantage.
+
+For example you can use color to differentiate scope of variables.
+
+== Text editing
+Master and use editing controls:
+
+* CTRL
+* SHIFT
+* HOME
+* END
+* Combinations with SHIFT
+* Extend/Shrink selection
+* Multicursor
+
+== Rename
+=== Rename variable
+. Class: `RenameVariable`
+. Rename `list` to `file`
+. Rename `element` to `line`
+
+=== Rename method
+. Class: `RenameMethod`
+. Rename `someMethod` to `println`
+
+=== Rename class
+. Class: `RenameClass`
+. Rename class to `SomeProperNameForAClassOneCouldPossiblyExpect`
+
+== Move
+. Class: `MoveClass`
+. Move it to `koriit.training`
+. Show refactored package in `MoveClass`
+. Show new import in `UsesMoveClass`
+
+== Extract
+=== Extract method
+=== Extract variable
+=== Extract constant
+=== Extract field
+=== Extract parameter
+== Inline
+=== Inline variable
+=== Inline method
+== Change signature
+. Class: `ChangeSignature`
+. Add prefix to `print` with delegation
+. CTRL + Z
+. Add prefix to `print` and interface
+. Note how IntelliJ doesn't try to resolve prefix
+
+== Members
+=== Pull members up
+=== Push members down
+
+
